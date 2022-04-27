@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de validação</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <form action="">
+        <h2>
+            Faça seu cadastro
+        </h2>
+        <div class="input">
+            <input required type="text" />
+            <label for="">Nome completo</label>
+            <span class="error"></span>
+        </div>
+        <div class="input">
+            <input required id="email" type="email" />
+            <label for="">E-mail</label>
+            <span class="erro de Email"></span>
+        </div>
+        <div class="input">
+            <input required id="text" />
+            <label for="">Celular</label>
+            <span class="error"></span>
+        </div>
+        <div class="input">
+            <input required id="cep" type="text" />
+            <label for="">Cep</label>
+            <span class="erro de CEP"></span>
+        </div>
+        <div class="input">
+            <input required type="text" />
+            <label for="">Cidade</label>
+            <span class="error"></span>
+        </div>
+        <div class="input">
+            <input required id="uf" type="text" />
+            <label for="">UF</label>
+            <span class="erro de UF"></span>
+        </div>
+        <button class="botao" type="submit"> Enviar </button>
+    </form>
+</body>
+</html>
